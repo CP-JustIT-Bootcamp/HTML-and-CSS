@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .main-section {
+            background-color: crimson;
+        }
+
+        .title {
+            color: blue;
+        }
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <title>HTML Day 1 - PM</title>
+</head>
+
+<body>
+    <!-- ID Attribute -->
+    <!-- Unique ID for an element -->
+    <h1 class="title" id="title">Page Heading</h1>
+
+    <!-- Class Attribute -->
+    <h2 class="main-section title">Sub-Heading</h2>
+    <p class="main-section">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat tempora alias cumque
+        quidem aut ipsam eum unde sint corporis dignissimos totam modi nemo vero, voluptatibus, quas ab aperiam
+        laudantium corrupti!</p>
+
+
+    <!-- Forms -->
+    <form action="./confirmation.html">
+        <!-- Ensure the "for" att of the label
+        Matches the ID att of the input -->
+        <label for="firstName">First Name:
+            <input id="firstName" type="text" placeholder="First Name">
+        </label>
+        <br>
+        <label for="surname">Surname:
+            <input id="surname" type="text">
+        </label>
+        <br>
+        <label for="password">Password:
+            <input id="password" type="password" required maxlength="12">
+        </label>
+        <br>
+        <label for="email">Email:
+            <input id="email" type="email" placeholder="mail@mail.com">
+        </label>
+        <br>
+        <label for="dob">DOB:
+            <input id="dob" type="date">
+        </label>
+        <br>
+        <input type="reset">
+        <br>
+        <input type="submit" value="Sign Up">
+    </form>
+
+    <!-- iFrame -->
+    <iframe src="https://www.justit.co.uk/" width="560" height="315"></iframe>
+    <iframe src="./HTML_Introduction_PDF.pdf" width="560" height="315"></iframe>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.665921073192!2d-0.27961769999999997!3d51.55602469999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761181d57a876d%3A0xa64f9f185de8e097!2sWembley%20Stadium!5e0!3m2!1sen!2suk!4v1693314892968!5m2!1sen!2suk"
+        width="600" height="450" style="border:0;" allow="fullscreen" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h2>HTML Video</h2>
+    <video src="./HTML_Video.mp4" height="315" width="560" controls>
+        Your browser does not support HTML video.
+    </video>
+
+    <h2>HTML Audio</h2>
+    <audio src="./applause2.mp3" controls>
+        Your browser does not support HTML Audio
+    </audio>
+
+
+    <h2>HTML Entities</h2>
+    <p>&lt; Entity Example &gt;</p>
+    <p>Emoji: &#127789;</p>
+    <p>Symbol: &#8734;</p>
+
+</body>
+
+</html>

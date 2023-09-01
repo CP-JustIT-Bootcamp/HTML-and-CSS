@@ -1,0 +1,14 @@
+span {
+    background-color: blueviolet;
+    width: 200px;
+}
+
+h1 {
+    background-color: orange;
+    height: 200px;
+}
+
+img {
+    width: 200px;
+    display: none;
+}

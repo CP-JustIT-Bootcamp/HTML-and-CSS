@@ -1,0 +1,18 @@
+.box1 {
+    height: 200px;
+    width: 200px;
+    background-color: dodgerblue;
+    border: 2px solid black;
+    position: sticky;
+    /* offset values: top, left, right, bottom */
+    /* top: 500px;
+    left: 250px; */
+    top: 0;
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    border: 2px solid black;
+}
